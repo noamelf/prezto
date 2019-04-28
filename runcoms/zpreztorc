@@ -31,16 +31,16 @@ zstyle ':prezto:load' pmodule \
   'terminal' \
   'editor' \
   'history' \
-	'history-substring-search' \
   'directory' \
   'spectrum' \
   'utility' \
   'completion' \
-	'git' \
-	'tmux' \
-	'pacman' \
-	'syntax-highlighting' \
-  'prompt'
+  'git' \
+  'tmux' \
+  'syntax-highlighting' \
+  'prompt' \
+  'fasd' \
+  'ssh'
 
 #
 # Autosuggestions
@@ -62,7 +62,7 @@ zstyle ':prezto:load' pmodule \
 #
 
 # Set the key mapping style to 'emacs' or 'vi'.
-zstyle ':prezto:module:editor' key-bindings 'emacs'
+zstyle ':prezto:module:editor' key-bindings 'vi'
 
 # Auto convert .... to ../..
 # zstyle ':prezto:module:editor' dot-expansion 'yes'
@@ -103,13 +103,6 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 
 # Set the keyword used by `mand` to open man pages in Dash.app
 # zstyle ':prezto:module:osx:man' dash-keyword 'manpages'
-
-#
-# Pacman
-#
-
-# Set the Pacman frontend.
-zstyle ':prezto:module:pacman' frontend 'pacaur'
 
 #
 # Prompt
