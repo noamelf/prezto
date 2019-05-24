@@ -4,3 +4,4 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 source $HOME/.config/my-configs/zsh/custom.zsh
+source $HOME/.config/my-configs/zsh/bluevine.zsh
