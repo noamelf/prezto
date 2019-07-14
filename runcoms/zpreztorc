@@ -41,7 +41,8 @@ zstyle ':prezto:load' pmodule \
   'prompt' \
   'fasd' \
   'ssh' \
-  'history-substring-search'
+  'history-substring-search' \
+  'autosuggestions'
 
 #
 # Autosuggestions
